@@ -92,3 +92,9 @@
 // window.addEventListener("copy", handleWindowCopy);
 // window.addEventListener("offline", hanldeWindowOffline);
 // window.addEventListener("online", hanldeWindowOnline);
+
+
+function handleTitleClick(){
+//     const clickedClass = "clicked";
+//     h1.classList.toggle(clickedClass);
+// }
