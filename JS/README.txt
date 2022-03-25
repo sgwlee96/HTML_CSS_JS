@@ -45,3 +45,50 @@
 // } else{
 //     console.log("empty")
 // } 
+
+// const title = document.querySelector(".hello h1");
+// .hello -> class name
+
+// const h1 = document.querySelector(".hello:first-child h1");
+
+// console.dir(h1)
+
+// function handleTitleClick(){
+//     console.log("title was clicked!");
+//     h1.style.color = 'blue';
+// }
+
+// function handleMouseEnter(){
+//     h1.innerText = "Mouse is here! :)";
+//     // title.style.color = 'yellow';
+// }
+
+// function handleMouseLeave(){
+//     h1.innerText = "Mouse is gone :(";
+//     // title.style.color = 'red';
+// }
+
+// function handleWindowResize(){
+//     document.body.style.backgroundColor = "tomato";
+// }
+
+// function handleWindowCopy(){
+//     alert("Copied!");
+// }
+
+// function hanldeWindowOffline(){
+//     alert("Wifi disconnect");
+// }
+
+// function hanldeWindowOnline(){
+//     alert("Wifi connected");
+// }
+
+// h1.onclick = handleTitleClick;
+// h1.onmouseenter = handleMouseEnter;
+// h1.addEventListener("mouseleave", handleMouseLeave);
+
+// window.addEventListener("resize", handleWindowResize);
+// window.addEventListener("copy", handleWindowCopy);
+// window.addEventListener("offline", hanldeWindowOffline);
+// window.addEventListener("online", hanldeWindowOnline);
