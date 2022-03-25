@@ -10,11 +10,15 @@
 
     <body>
 
-        <div id="login-form">
-            <input type="text" placeholder="What is your name?">
-            <button>Log In</button>
-        </div>
-
+        <form id="login-form">
+            <input 
+                required maxlength="15" 
+                type="text" 
+                placeholder="What is your name?">
+            <!-- Same as <button>Log In</button> -->
+            <input type="submit" value="Log In"> 
+        </form>
+        <a href="https://github.com/sgwlee96" target="_blank">Github address</a>
 
         <!--import javascript to html-->
         <script src="app.js"></script>

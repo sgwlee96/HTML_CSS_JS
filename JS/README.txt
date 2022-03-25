@@ -98,3 +98,31 @@ function handleTitleClick(){
 //     const clickedClass = "clicked";
 //     h1.classList.toggle(clickedClass);
 // }
+
+
+const loginForm = document.querySelector("#login-form");
+// const loginInput = loginForm.querySelector("input");
+// const loginButton = loginForm.querySelector("button")
+
+// function onLoginBtnClick(){
+//     const username = loginInput.value;
+//     // if(username == ""){
+//     //     alert("Please write your name.");
+//     // } else if(username.length >=  15){
+//     //     alert("Your anme is too long.");
+//     // }
+//     console.log(username)
+// }
+
+// // loginButton.addEventListener("click", onLoginBtnClick);
+
+
+                <!-- required maxlength="15" 
+                type="text" 
+                placeholder="What is your name?">
+            <!-- Same as <button>Log In</button> -->
+            <input type="submit" value="Log In"> 
+
+
+
+
