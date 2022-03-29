@@ -14,7 +14,7 @@ function onLoginSubmit(event){
     const username = loginInput.value;
     // Use localStorage API to remember the value (key, value)
     localStorage.setItem(USERNAME_KEY, username);
-    paintGreetings();
+    paintGreetings(username);
     
 }
 
