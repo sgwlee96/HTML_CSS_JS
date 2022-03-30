@@ -3,7 +3,11 @@ const todoList = document.querySelector("#todo-list");
 const toDoInput = todoForm.querySelector("input");
 
 function paintToDo(newToDo){
-    console.log("I will paint new todo.")
+    const li = document.createElement("li");
+    const span = document.createElement("span");
+    li.appendChild(span);
+    span.innerText = newToDo;
+    todoList.appendChild(li);
 }
 
 function handleToDoSubmit(event){
