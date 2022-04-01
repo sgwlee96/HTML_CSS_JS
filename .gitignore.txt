@@ -1,1 +1,1 @@
-C:\Users\pumad\JavaScript_Exercise\JS\js\weather.js
+C:/Users/pumad/JavaScript_Exercise/JS/js/weather.js
