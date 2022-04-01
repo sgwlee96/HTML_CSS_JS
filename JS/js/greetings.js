@@ -19,7 +19,7 @@ function onLoginSubmit(event){
 }
 
 function handleLinkClick(event){
-    event.preventDefault();
+    // event.preventDefault();
     console.log(event);
 
 }
