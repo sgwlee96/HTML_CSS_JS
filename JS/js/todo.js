@@ -42,7 +42,7 @@ function handleToDoSubmit(event){
     }
     toDos.push(newTodoObj);
     paintToDo(newTodoObj);
-    console.log(newTodoObj.id);
+    // console.log(newTodoObj.id);
     saveToDos();
 }
 
