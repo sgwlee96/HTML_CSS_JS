@@ -9,3 +9,12 @@ table, th, td {
 th, td {
   padding:10px;
 }
+h1 {
+  color: brown;
+}
+h2 {
+  color: blue;
+}
+li {
+  color: green;
+}
