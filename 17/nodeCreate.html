@@ -27,7 +27,8 @@
       newItem.appendChild(newText);
 
       var itemList = document.querySelector("#itemList");
-      itemList.appendChild(newItem);
+      // itemList.appendChild(newItem);
+      itemList.insertBefore(newItem, itemList.childNodes[0]);
 
       subject.value = "";
 
